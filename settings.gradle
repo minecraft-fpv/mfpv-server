@@ -1,0 +1,2 @@
+include ':fpv-drone'
+project(":fpv-drone").projectDir = file("../fpv-drone")

@@ -1,0 +1,31 @@
+{
+  "homepage": "https://www.curseforge.com/minecraft/mc-mods/fpv-drone",
+  "1.16.2": {
+    "1.4.2": "You can choose a controller from a list of all connected devices.",
+    "1.4.1": "Forge version 33.0.22 and button mouseClick exception fixed.",
+    "1.4.0": "Drag and lift physics of props are now simulated correctly. Drone build can be customized to achieve different flight characteristics."
+  },
+  "1.16.1": {
+    "1.3.3": "Custom angle rounded to nearest degree."
+  },
+  "1.15.2": {
+    "1.3.2": "Allow axis channels to be assigned as a switch. Every channel can be flipped.",
+    "1.3.1": "Fix crash caused by pressing space bar in settings.",
+    "1.3.0": "Armed players render as floating heads.",
+    "1.2.0": "Right click using controller. When armed, hide GUI except for chat.",
+    "1.1.1": "Fix sling shotting.",
+    "1.1.0": "Settings screen.",
+    "1.0.3": "Slight lag spike handling improvement. Works on server.",
+    "1.0.2": "Support custom camera angle with pot on CH5.",
+    "1.0.1": "Fix URLs",
+    "1.0.0": "Initial Release"
+  },
+  "promos": {
+    "1.16.2-latest": "1.4.2",
+    "1.16.2-recommended": "1.4.2",
+    "1.16.1-latest": "1.3.3",
+    "1.16.1-recommended": "1.3.3",
+    "1.15.2-latest": "1.3.2",
+    "1.15.2-recommended": "1.3.2"
+  }
+}
