@@ -1,3 +1,20 @@
+# mfpv-server
+
+This is a server-side mod to be used with [mfpv-client](https://github.com/minecraft-fpv/mfpv-client).
+
+Please note that there is an issue in MC version 1.16 where vanilla MC does a check on how fast the player is moving
+and if the player is moving too fast, then it will cause rubberbanding. This isn't good for the FPV mod since players
+are intended to go fast. To fix this, you might get away with flying slowly, but if rubberbanding becomes too much
+of an issue for you, then you will have to compile a custom build of the Forge MC.
+
+### How to build a custom Forge MC without speed checks:
+
+To do this, you need to fork [MinecraftForge](https://github.com/MinecraftForge/MinecraftForge), checkout branch 1.16.x,
+cut out the movement checking code, then compile Minecraft with your patch.
+
+I have an example of how to do this here: https://github.com/taylrun/MinecraftForge/commit/56e6ed23816ebbd630995beb295b41dbf5232d01.
+You can fork this example and compile from there to remove it.
+
 -------------------------------------------
 Source installation information for modders
 -------------------------------------------
